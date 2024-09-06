@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url("/Bacground.jpg");
+}
+.container{
+    background:rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav img{
+    height: 50px;
+    width: 150px;
+    margin:0px 300px;
+    left: 300px;
+}
+.button{
+    margin: 0 100px;
+}
+.btn{
+    margin: 0 20px;
+    padding:8px 20px;
+    letter-spacing: 2px;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+}
+.contant{
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contant div{
+    letter-spacing: 1px;
+}
+.contant div h1{
+    font-size: 55px;
+}
+.contant div p{
+    font-size: 28px;
+    margin: 13px;
+    font-weight: 400;
+    text-align: center;
+}
